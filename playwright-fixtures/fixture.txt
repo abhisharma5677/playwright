@@ -1,0 +1,34 @@
+
+
+Fixture :- In Playwright, fixtures are used to set up and tear down test environments, such as launching browsers,
+           creating pages, and performing any necessary cleanup after the tests have run. There are two types of 
+           fixtures based on their scope: session scope and function scope.
+
+
+
+Session Scope Fixture:-
+    1. A session scope fixture is created once per testing session and persists throughout the entire session.
+    
+    2. It is commonly used for expensive setup operations that you want to perform only once for all tests within a session.
+    
+    3. Examples of operations suitable for a session scope fixture include launching a browser instance, setting up 
+       authentication, or preparing test data.
+    
+    4. To define a session scope fixture in Playwright, you can use the beforeAll and afterAll hooks provided by testing 
+       frameworks like Jest or Mocha. These hooks allow you to set up and tear down resources before and after the entire 
+       test suite runs.
+
+
+
+
+Function Scope Fixture:-
+    1. A function scope fixture is created and torn down for each individual test function.
+    
+    2. It is commonly used for setting up and tearing down resources that need to be isolated between test cases.
+    
+    3. Examples of operations suitable for a function scope fixture include creating a new page instance, navigating
+       to a specific URL, or clearing cookies before each test.
+    
+    4. To define a function scope fixture in Playwright, you can use the beforeEach and afterEach hooks provided by 
+       testing frameworks like Jest or Mocha. These hooks allow you to set up and tear down resources before and after
+       each test function runs.
