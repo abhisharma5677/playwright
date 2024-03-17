@@ -1,0 +1,43 @@
+---------------Environmental SetUp--------------
+ 1. create a virtual environment    ---> sudo apt-get install python3-venv    ----> python3 -m venv venv
+ 2. enter into virtual environment  ----> source venv/bin/activate
+ 3. install pytest   ---> pip install pytest
+
+
+
+
+codegen:- In Playwright, a code generation tool is available to help you quickly generate code snippets
+           for common actions you might perform in your tests. This tool is called Playwright CLI. 
+           Playwright CLI allows you to record user interactions on a webpage and generates Playwright
+           scripts based on those interactions. 
+
+
+
+
+---------How to use-------------
+use command inside the vitual environment :- playwright codegen playwright.dev(website name)
+
+
+
+
+
+Perform interactions:-
+Playwright will launch the specified browser and open the provided URL. Interact with the webpage
+as you normally would, performing actions such as clicking buttons, typing into input fields, or 
+navigating to different pages.
+
+
+
+Generate code snippets:-
+After you're done interacting with the webpage, close the browser window. Playwright CLI will generate
+code snippets based on the interactions you performed and output them to the terminal.
+
+
+Copy and use the generated code:-
+Playwright CLI will display code snippets in various programming languages (JavaScript, Python, and more)
+that you can use in your tests. Copy the code snippets relevant to your test scenario and incorporate them
+into your test scripts.
+
+
+
+
