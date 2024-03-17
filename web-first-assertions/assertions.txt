@@ -1,0 +1,37 @@
+
+List of assertions :-
+
+
+Assertion	                                         Description
+
+expect(locator).to_be_attached()	            Element is attached
+expect(locator).to_be_checked()	                Checkbox is checked
+expect(locator).to_be_disabled()	            Element is disabled
+expect(locator).to_be_editable()	            Element is editable
+expect(locator).to_be_empty()	                Container is empty
+expect(locator).to_be_enabled()	                Element is enabled
+expect(locator).to_be_focused()	                Element is focused
+expect(locator).to_be_hidden()	                Element is not visible
+expect(locator).to_be_in_viewport()	            Element intersects viewport
+expect(locator).to_be_visible()	                Element is visible
+expect(locator).to_contain_text()	            Element contains text
+expect(locator).to_have_attribute()	            Element has a DOM attribute
+expect(locator).to_have_class()	                Element has a class property
+expect(locator).to_have_count()	                List has exact number of children
+expect(locator).to_have_css()	                Element has CSS property
+expect(locator).to_have_id()	                Element has an ID
+expect(locator).to_have_js_property()	        Element has a JavaScript property
+expect(locator).to_have_text()	                Element matches text
+expect(locator).to_have_value()	                Input has a value
+expect(locator).to_have_values()	            Select has options selected
+expect(page).to_have_title()	                Page has a title
+expect(page).to_have_url()	                    Page has a URL
+expect(response).to_be_ok()	                    Response has an OK status
+
+
+
+We can use not with these expect...
+e.g.
+
+expect(locator).not_to_be_visible()	                Element is not visible
+
