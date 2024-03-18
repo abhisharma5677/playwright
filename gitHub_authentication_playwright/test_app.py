@@ -8,8 +8,8 @@ def visit_test_page(page: Page):
 
 
 def test_successful_login(page: Page):
-    email = "Your Email"
-    password = "Your Password"
+    email = "imabhishek5677@gmail.com"
+    password = "arpitasharma5677"
     url = "https://github.com/"
 
 
